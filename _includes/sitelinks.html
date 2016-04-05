@@ -1,0 +1,13 @@
+<ul>
+    {% for sitelink in site.data.sitelinks.sites %}
+        <li>{{ sitelink.name }} - <a href="{{ sitelink.link }}">{{ sitelink.link }}</a>
+            {% if sitelink.subsites %}
+                <ul>
+                    {% for sublink in sitelink.subsites %}
+                        <li>{{ sublink.name }} - <a href="{{ sublink.link }}">{{ sublink.link }}</a></li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        </li>
+    {% endfor %}
+</ul>

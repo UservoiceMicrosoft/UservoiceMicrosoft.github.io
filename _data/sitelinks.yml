@@ -1,0 +1,26 @@
+sites:
+  - name: "Xbox"
+    link: "https://xbox.uservoice.com"
+
+  - name: "SharePoint"
+    link: "https://SharePoint.uservoice.com"
+
+  - name: "Office Dev"
+    link: "https://officespdev.uservoice.com"
+
+  - name: "Office"
+    link: "https://office.uservoice.com"
+
+  - name: "Windows Server"
+    link: "https://windowsserver.uservoice.com"
+    subsites:
+        - name: "PowerShell"
+          link: "https://windowsserver.uservoice.com/forums/301869-powershell"
+        - name: "Nano Server"
+          link: "https://windowsserver.uservoice.com/forums/295068-nano-server"
+
+  - name: "SQL Server"
+    link: ""
+
+  - name: "Azure"
+    link: ""
